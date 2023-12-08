@@ -1,0 +1,64 @@
+
+/* CSS */
+.button-1 {
+  background-color: #a34cea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.parrafo{
+background-color: #EA4C89;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 40px;
+  text-align: center;
+}
+
+
+input[type='file']#lafoto {
+ width: 0.1px;
+ height: 0.1px;
+ opacity: 0;
+ 
+ position: absolute;
+ z-index: -1;
+ }
+
+ label[for="lafoto"] {
+ font-size: 12px;
+ font-weight: 600;
+ color: #fff;
+ background-color: #106BA0;
+ display: inline-block;
+ transition: all .5s;
+ cursor: pointer;
+ padding: 8px 12px ;
+ text-transform: uppercase;
+ width: fit-content;
+ text-align: center;
+ }
